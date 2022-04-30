@@ -32,8 +32,8 @@ const shuffleLayerConfigurations = true;
 const debugLogs = false;
 
 const format = {
-  width: 32,
-  height: 32,
+  width: 320,
+  height: 320,
   smoothing: false,
 };
 
@@ -70,7 +70,7 @@ const PREREVEAL_TOKEN_URI = "ipfs://bafkreidgnxbwondoyxfumrzo73bw6ghuetjtjafewyc
 const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
-let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually include it
+let CONTRACT_ADDRESS = "0x11823dD4014D24368a06a0Ce0222963d47698C8b"; // If you want to manually include it
 
 
 // Generic Metadata is optional if you want to reveal your NFTs
