@@ -59,7 +59,7 @@ const MINT_PRICE = .001; // Minting price per NFT. Rinkeby = ETH, Polygon = MATI
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-05-16T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-04-30T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = '2022-04-30T16:00:48+00:00'; // Optional. Eg: 2022-05-02T16:00:48+00:00
@@ -76,8 +76,8 @@ let CONTRACT_ADDRESS = "0x422A33088dA87Be855d1EcdafeDE8c7399ee3a81"; // If you w
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = false; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
-const GENERIC_DESCRIPTION = "Which Genie Pig will you get?"; // Replace with what you want the generic descriptions to say.
-const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafkreidgnxbwondoyxfumrzo73bw6ghuetjtjafewyciodlsrt4mricfve"; // Replace with your generic image that will display for all NFTs pre-reveal.
+const GENERIC_DESCRIPTION = null; // Replace with what you want the generic descriptions to say.
+const GENERIC_IMAGE = null; // Replace with your generic image that will display for all NFTs pre-reveal.
 
 // Automatically set contract address if deployed using the deployContract.js script
 try {
