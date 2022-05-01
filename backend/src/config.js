@@ -49,8 +49,8 @@ const LIMIT = 10; // Your API key rate limit
 const CHAIN = 'rinkeby'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'GeniePigs';
-const CONTRACT_SYMBOL = 'GP';
+const CONTRACT_NAME = 'GeniePigs Test';
+const CONTRACT_SYMBOL = 'GP Test';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0xE28f52B0F1425390229122a6cBa16DC6673CFB5c';
 const TREASURY_ADDRESS = '0xE28f52B0F1425390229122a6cBa16DC6673CFB5c';
@@ -70,11 +70,11 @@ const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the
 const PRESALE_WHITELISTED_ADDRESSES = ["0xE28f52B0F1425390229122a6cBa16DC6673CFB5c"]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
-let CONTRACT_ADDRESS = "0x1753F96AbbA6eb521cA5449017c7A3375Ef32802"; // If you want to manually include it
+let CONTRACT_ADDRESS = "0x422A33088dA87Be855d1EcdafeDE8c7399ee3a81"; // If you want to manually include it
 
 
 // Generic Metadata is optional if you want to reveal your NFTs
-const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
+const GENERIC = false; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
 const GENERIC_DESCRIPTION = "Which Genie Pig will you get?"; // Replace with what you want the generic descriptions to say.
 const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafkreidgnxbwondoyxfumrzo73bw6ghuetjtjafewyciodlsrt4mricfve"; // Replace with your generic image that will display for all NFTs pre-reveal.
