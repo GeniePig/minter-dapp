@@ -7,7 +7,7 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Genie Pigs";
+const namePrefix = "GeniePigs";
 const description = "The guinea pigs known as Genie Pig that make wishes come true and saving lives. Half of sales go to Save The Children Foundation.";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
