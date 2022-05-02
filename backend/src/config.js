@@ -50,7 +50,7 @@ const CHAIN = 'polygon'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'GeniePigs';
-const CONTRACT_SYMBOL = 'GP';
+const CONTRACT_SYMBOL = 'GPIG';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0xE28f52B0F1425390229122a6cBa16DC6673CFB5c';
 const TREASURY_ADDRESS = '0xE28f52B0F1425390229122a6cBa16DC6673CFB5c';
